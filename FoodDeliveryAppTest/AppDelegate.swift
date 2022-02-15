@@ -14,6 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        увеличение шрифта Tab Bar item
+        let tabbarAppearence = UITabBarItem.appearance()
+        tabbarAppearence.setTitleTextAttributes(
+            [NSAttributedString.Key.font :
+                UIFont.systemFont(ofSize: 13)], for: .normal)
+        
         return true
     }
 

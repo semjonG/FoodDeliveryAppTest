@@ -56,15 +56,31 @@
 		048C9A7C27B983410033E0A6 /* FoodDeliveryAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				048C9A9227BBB8A20033E0A6 /* Controller */,
+				048C9A9127BBB87B0033E0A6 /* Model */,
 				048C9A7D27B983410033E0A6 /* AppDelegate.swift */,
 				048C9A7F27B983410033E0A6 /* SceneDelegate.swift */,
-				048C9A8127B983410033E0A6 /* ViewController.swift */,
 				048C9A8327B983410033E0A6 /* Main.storyboard */,
 				048C9A8627B983430033E0A6 /* Assets.xcassets */,
 				048C9A8827B983430033E0A6 /* LaunchScreen.storyboard */,
 				048C9A8B27B983430033E0A6 /* Info.plist */,
 			);
 			path = FoodDeliveryAppTest;
+			sourceTree = "<group>";
+		};
+		048C9A9127BBB87B0033E0A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		048C9A9227BBB8A20033E0A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				048C9A8127B983410033E0A6 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
